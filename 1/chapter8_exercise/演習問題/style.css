@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main{
+  background-color: red;
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 50px 0 50px 0;
+}
+
+.list-item{
+  padding: 20px 0 20px 20px;
+}
+
+.lower{
+  background-color: lime;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.box{
+  width: 30%;
+  height: 200px;
+  float: left;
+}
+
+.box:nth-child(3n){
+  background-color: orange;
+}
+
+.box:nth-child(-n+3){
+  background-color: yellow;
+}
