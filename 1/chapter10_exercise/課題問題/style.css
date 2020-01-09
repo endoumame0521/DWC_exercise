@@ -70,7 +70,7 @@ main{
   .box:nth-child(n){
     width: 90%;
     float: none;
-    margin: 20px 20px;
+    margin: 20px auto;
   }
 
   .box>div{
