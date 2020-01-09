@@ -2,7 +2,6 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- font-family: sans-serif;
 }
 
 .clearfix::after{
@@ -29,18 +28,34 @@ main{
   margin-right: 0;
 }
 
-.logo{
-  width: 280px;
-  margin-bottom: 10px;
+.logo1{
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
 }
 
-.tittle{
-  margin-bottom: 10px;
+.logo2{
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.logo3{
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.title{
+  margin: 15px 0 5px;
 }
 
 .step{
   background-color: orange;
-  font-size: 20px;
+  padding: 3px;
   color: white;
   position: absolute;
   top: 0;
