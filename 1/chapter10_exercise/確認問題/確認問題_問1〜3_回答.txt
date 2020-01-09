@@ -1,0 +1,8 @@
+Q1.
+  A. スマートフォン
+
+Q2.
+  A.　initial-scale=1.0, width=device-width
+
+Q3.
+  A. @media screen and (max-width: 768px)
